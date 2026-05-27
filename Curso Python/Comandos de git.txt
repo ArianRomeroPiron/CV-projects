@@ -1,0 +1,47 @@
+----- COMANDOS DE GITHUB -----
+
+Comando para configurar nombre de usario: git config --global user.name '' 
+Comando para configurar nombre de gmail: git config --global user.email 't.o.l.n.romeropriron@gmail.com'
+Comando para verificar nombres de los repositorios: git config --global --list
+Comando para poder salir de un apartado: cd ..
+Comando para entrar a un apartado: cd [Nombre del apartado]
+Comando para crear un portafolio: mkdir [Nombre del portafolio]
+Comando para iniciar un repositorio en github website: git init
+Comando para iniciar VS code en el repositorio de git: code .
+Comando para ver el status (Estado): git status|Untracked significa que el archivo no a sido rastreado (no a sido agregado 					a git, para trackearlo debe ejecutarse el comando |git add [Nombre archivo])(mientras que 					staged es el momento en el que el archvio esta listo para guardarse y solo hace falta el 					comando |git commit [Nombre archivo])
+
+Comando para poder darle seguimiento a un archivo en git: git add [Nombre archivo]|para agregar todos los archivos: git add 							.| para agregar 2 o mas archviso especificos: git add [Nombre de 							archivo + Nombre de archivo]
+
+Comando para poder guardar un archivo en git: git commit -m 'Mensaje aqui'
+Comando para darle add automaticamente (archivos ya seguidos por git) y hacer guardado a la vez: git commit -am 'Mensaje aqui'
+Comando para borrar cambios del archivo (los devuelve a la ultima version del commit): git restore [Nombre del archivo]
+Comando para retroceder a un 'working area' si es que añadimos un archivo y nos arrepentimos: git restore --staged [Nombre del archivo]
+Comando para cambiar el commit de un archivo: git commit --amend -m '[Cambio de archivo]'
+Comando para ver como esta el repositorio (en el apartado de commit): git log --oneline
+Comando para volver a un commit anterior, si es que ya se creo 1 (No se borran cambios): git reset --soft HEAD~1
+Comando para volver a un commit anterior (lo saca del staging/Staged): git reset HEAD~1
+
+----- COMANDOS DE GITHUB BRANCH (SECCION 4) -----
+
+Comando para crear un branch: git branch [Nombre de la funcion/rama]
+Comando para ver las ramas/branches creadas: git branch
+Comando para poder cambiar a la rama/branch creada: git checkout [Nombre de la funcion/rama]
+Comando para hacer todo de un solo comando: git switch -c [Nombre de la funcion/rama]
+Comando para poder ver todos los comentarios/commits hechos hasta el momento (esto incluye los que fueron creados en la rama alterna, pero, no los eliminados): git --oneline --all
+Comando para ver todos los commit/comentarios de manera grafica (incluyendo los que fueron creados en la rama alterna, pero, no los eliminados): git --oneline --all --graph
+Comando para pasar 1 commit a otro: git merge [nombre de la funcion]
+Comando para borrar el branch/rama que fue creada y ya no sirve: git branch -D [Nombre de la funcion]
+
+----- COMANDOS DE GITHUB BRANCH (SECCION 5) -----
+
+Comando para ver historial de git, pero con mas informacion (Cuales fueron modificados y cuantas lineas tienen): git log --stat
+Comando para ver historia de git, desde hace una X cantidad de horas: git log --since="[Cantidad de horas aqui][Cantidad de dias + el tiempo (segundos/minutos/horas/dias/semanas/meses/años) + ago](Se puede usar fecha en especifico)"
+Comando para ver detalles de un commit: git show [primeros digitos del commit deseado]
+Comando para ver que commit(puede ser persona), cambio que parte de un codigo especificamente: git blame [nombre trabajo]
+Comando para poder guardar un commit o codigo que no a sido completado, pero se necesita de un cambio urgente de rama para un bug repentino o algo urgente: git stash
+Comando para volver al punto de commit o codigo que no habia sido guardado anteriormente: git pop
+Comando para poder hacer "add" y "commit" a un archivo YA RASTREADO por git: git commit -am '[Mensaje del commit]'
+
+----- COMANDO DE GITHUB (SECCION 6) -----
+
+Comando para hacer puch a un repositorio desde el comando en linea (VS): git push -u origin main
