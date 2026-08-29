@@ -1,64 +1,37 @@
-# CV-projects
-👋 Hey, I'm Arian Romero Pirón
-Software Development Student | Web Design Enthusiast | Future Backend Developer
+🐍 CV-projects
 
-“Always learning, always building.”
+Colección de ejercicios y retos de práctica en Python, usados para reforzar fundamentos del lenguaje: condicionales, bucles, funciones, listas y manejo de strings. Es material de aprendizaje, no un proyecto productivo — sirve como evidencia de progreso y de la lógica de programación de base.
 
-🚀 About Me
+📂 Contenido
 
-I’m a software development student from the Dominican Republic passionate about technology, problem-solving, and continuous learning.
-I enjoy creating projects that help me improve my programming logic and expand my knowledge in development.
+Todo el código está dentro de Curso Python/:
 
-I consider myself a dedicated person who likes learning new things, collaborating with others, and always giving my best in everything I do.
+Archivo	Reto	Conceptos practicados
+pruebas.py	Fundamentos básicos	print, variables, operadores aritméticos (**, %, //, /)
+Practica1.py	Validador de contraseñas	if / else, len(), validación de inputs
+Practica2.py	Cajero automático	while True, break, continue, menú interactivo
+Practica3.py	Conversor de temperatura	Funciones con parámetros y retorno (Celsius → Fahrenheit)
+Practica4.py	Gestión de inventario ("La Pythonería")	Listas, while + menú, validaciones con len()
+Practica5.py	Detector de palíndromos	Slicing de strings ([::-1]), comparación de cadenas
+Practica6.py	Funciones básicas	Definición y paso de argumentos a una función
+Practica7.py	Manipulación de listas	Recorrido con range(len(...)), modificación de elementos
+Inteligent calculator.py	Calculadora con historial	Menú en bucle, operaciones básicas, manejo de listas como historial
+Comandos de git.txt	—	Apuntes personales de comandos de Git/GitHub (config, commits, branches, stash, push)
+🎯 Objetivo del repositorio
 
-🎓 Education
-Instituto Tecnológico de Las Américas
+Cada archivo corresponde a un "reto" independiente pensado para practicar un concepto puntual de Python antes de pasar a proyectos más grandes con backend real (ver SysCol y SistemaBiblioteca para eso).
 
-Software Development (Currently studying)
+▶️ Cómo correr los ejercicios
 
-Instituto Técnico Profesional Don Bosco
+Requiere Python 3.x instalado.
 
-Technical Degree in Application Development & Information Systems
-Graduated in 2024
+bash
+git clone https://github.com/ArianRomeroPiron/CV-projects.git
+cd CV-projects/"Curso Python"
+python3 Practica1.py   # o el archivo que quieras probar
 
-💼 Experience
-Dirección General de Contabilidad Gubernamental
+Cada script es independiente y se ejecuta por consola; varios piden datos por input().
 
-Intern & Web Designer
+👤 Autor
 
-Assisted in web-related tasks and interface design
-Collaborated with teams on digital solutions
-Gained real-world experience in professional environments
-🛠️ Skills
-Languages & Technologies
-Python (Beginner)
-SQL Server
-HTML / CSS
-Basic Web Development
-Tools
-Microsoft Office
-General IT & Office Software
-Git & GitHub (Learning)
-📚 Currently Learning
-Backend Development
-Databases & SQL
-Python Programming
-Software Architecture
-APIs & Frameworks
-🌎 Languages
-Spanish — Native
-English — Intermediate
-📌 Goals
-Become a professional software developer
-Build impactful projects
-Improve my backend and database skills
-Contribute to open-source projects
-Keep learning every day
-📫 Contact
-
-📧 Email: arianromeropiron78@gmail.com
-📱 Phone: +1 (809) 658-8896
-
-⭐ Thanks for Visiting
-
-If you like my work or want to collaborate, feel free to connect with me!
+Arian Romero Pirón
